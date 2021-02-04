@@ -6,7 +6,7 @@
 
 <h2 align="center">Purpose</h2>
 
-This is an exremely tiny, yet powerful library eventing. `st-bus` makes decoupled component architecture and state mutation notification dead simple.
+This is an exremely tiny, yet powerful eventing library. `st-bus` makes it easy to decouple components. If one component wants to tell another component that something happend, `emit` is called. In another component, `on` is called to listen for such events.
 
 <h2 align="center">Features</h2>
 
@@ -18,7 +18,7 @@ This is an exremely tiny, yet powerful library eventing. `st-bus` makes decouple
 
 <h2 align="center">How to</h2>
 
-This is how `st-bus` looks like:
+This is how `st-bus` is used:
 
 ```tsx
 import { tsx, render, Ref } from 'springtype';
